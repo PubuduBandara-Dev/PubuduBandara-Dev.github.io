@@ -19,13 +19,48 @@ interface HeroSectionProps {
 }
 
 export const HeroSection: React.FC<HeroSectionProps> = ({ profile, socialLinks }) => {
+  const avatarSrc = React.useMemo(() => {
+    if (!profile.avatarUrl) return '';
+    if (profile.avatarUrl.startsWith('http') || profile.avatarUrl.startsWith('data:')) {
+      return profile.avatarUrl;
+    }
+    const cleanPath = profile.avatarUrl.replace(/^\.?\//, '');
+    const baseUrl = import.meta.env.BASE_URL || './';
+    const cleanBase = baseUrl.endsWith('/') ? baseUrl : `${baseUrl}/`;
+    return `${cleanBase}${cleanPath}`;
+  }, [profile.avatarUrl]);
+
+  const [currentSrc, setCurrentSrc] = React.useState(avatarSrc);
   const [imageError, setImageError] = React.useState(false);
-  const showAvatar = Boolean(profile.avatarUrl && !imageError);
+
+  React.useEffect(() => {
+    setCurrentSrc(avatarSrc);
+    setImageError(false);
+  }, [avatarSrc]);
+
+  const handleImageError = () => {
+    if (currentSrc.endsWith('.jpg')) {
+      setCurrentSrc(currentSrc.replace(/\.jpg$/, '.jpeg'));
+    } else if (currentSrc.endsWith('.jpeg')) {
+      setCurrentSrc(currentSrc.replace(/\.jpeg$/, '.jpg'));
+    } else {
+      setImageError(true);
+    }
+  };
+
+  const showAvatar = Boolean(currentSrc && !imageError);
 
   const linkedinLink = socialLinks.find((l) => l.id === 'linkedin')?.url || '#';
   const githubLink = socialLinks.find((l) => l.id === 'github')?.url || '#';
   const emailLink = socialLinks.find((l) => l.id === 'email')?.url || `mailto:${profile.email}`;
-  const cvLink = profile.cvPath || socialLinks.find((l) => l.id === 'cv')?.url || '#';
+  const cvLink = React.useMemo(() => {
+    const rawPath = profile.cvPath || socialLinks.find((l) => l.id === 'cv')?.url || '#';
+    if (!rawPath || rawPath.startsWith('http') || rawPath.startsWith('#')) return rawPath;
+    const cleanPath = rawPath.replace(/^\.?\//, '');
+    const baseUrl = import.meta.env.BASE_URL || './';
+    const cleanBase = baseUrl.endsWith('/') ? baseUrl : `${baseUrl}/`;
+    return `${cleanBase}${cleanPath}`;
+  }, [profile.cvPath, socialLinks]);
 
   const scrollTo = (selector: string) => {
     const el = document.querySelector(selector);
@@ -60,10 +95,10 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ profile, socialLinks }
           <div className="w-28 h-28 sm:w-32 sm:h-32 rounded-2xl bg-gradient-to-tr from-slate-900 to-slate-800 dark:from-slate-900 dark:to-slate-800 light:from-slate-100 light:to-slate-200 border-2 border-primary-500/40 p-1 shadow-xl shadow-primary-500/10 mx-auto flex items-center justify-center overflow-hidden">
             {showAvatar ? (
               <img
-                src={profile.avatarUrl}
+                src={currentSrc}
                 alt={profile.name}
                 className="w-full h-full object-cover rounded-xl"
-                onError={() => setImageError(true)}
+                onError={handleImageError}
               />
             ) : (
               <div className="w-full h-full bg-gradient-to-br from-primary-600 via-sky-600 to-slate-900 rounded-xl flex items-center justify-center text-white font-mono font-bold text-3xl">
