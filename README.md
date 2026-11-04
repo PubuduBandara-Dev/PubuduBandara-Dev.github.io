@@ -196,27 +196,10 @@ All content is configured strictly through the JSON files inside `src/data/`. No
 ### 7. Certifications & Education (`certifications.json` & `education.json`)
 - Update credential links, issue dates, and validated competencies.
 
-### 8. Social Links (`src/data/social-links.json`)
-- Configure URLs for LinkedIn, GitHub, Email, WhatsApp, and CV.
-
----
-
-## 📬 Contact Form Configuration (Static-Hosting Compatible)
-
-The contact form operates seamlessly on static GitHub Pages without requiring a custom backend.
-
-### Option A: Formspree (Recommended)
-1. Register a free account at [Formspree.io](https://formspree.io) and create a new form.
-2. Copy your Formspree Form ID (e.g. `xpzgvkrq`).
-3. Either:
-   - Create a `.env` file in the project root:
-     ```env
-     VITE_FORMSPREE_ID=xpzgvkrq
-     ```
-   - OR set `"formspreeEndpoint": "https://formspree.io/f/YOUR_ID"` directly in `src/data/site-config.json`.
-
-### Option B: Direct Mailto Fallback
-If no Formspree ID is specified, the form automatically falls back to client validation and opens the user's default email client pre-populated with the subject and body directed to `contactConfig.directEmail`.
+### 8. Direct Contact Channels (`src/data/social-links.json` & `site-config.json`)
+- Configure direct contact channels for **Email** (with one-click "Compose Email" and "Copy Email" actions), **LinkedIn**, **GitHub**, **WhatsApp**, and **Curriculum Vitae (PDF)**.
+- Includes location ("Colombo, Sri Lanka") and real-time availability status badge.
+- Fully static, privacy-friendly, and requires no external backend or third-party email form services.
 
 ---
 
