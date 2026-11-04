@@ -1,0 +1,50 @@
+{
+  "_comment": "External contact channels and social profiles. Update placeholders with your actual URLs.",
+  "links": [
+    {
+      "id": "linkedin",
+      "platform": "LinkedIn",
+      "url": "https://www.linkedin.com/in/pubudu-nuwan-bandara/",
+      "username": "pubudu-nuwan-bandara",
+      "icon": "Linkedin",
+      "isPrimary": true,
+      "description": "Connect professionally on LinkedIn"
+    },
+    {
+      "id": "github",
+      "platform": "GitHub",
+      "url": "https://github.com/PubuduBandara-Dev",
+      "username": "PubuduBandara-Dev",
+      "icon": "Github",
+      "isPrimary": true,
+      "description": "Review engineering repositories on GitHub"
+    },
+    {
+      "id": "email",
+      "platform": "Email",
+      "url": "mailto:pubudu.bandara.dev@example.com",
+      "username": "pubudu.bandara.dev@example.com",
+      "icon": "Mail",
+      "isPrimary": true,
+      "description": "Send an email inquiry"
+    },
+    {
+      "id": "whatsapp",
+      "platform": "WhatsApp",
+      "url": "https://wa.me/94700000000",
+      "username": "+94 70 000 0000",
+      "icon": "MessageSquare",
+      "isPrimary": false,
+      "description": "Reach out on WhatsApp"
+    },
+    {
+      "id": "cv",
+      "platform": "Curriculum Vitae",
+      "url": "assets/documents/Pubudu_Nuwan_Bandara_CV.pdf",
+      "username": "Download CV",
+      "icon": "FileText",
+      "isPrimary": true,
+      "description": "Download complete curriculum vitae"
+    }
+  ]
+}

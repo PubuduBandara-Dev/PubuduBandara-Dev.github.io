@@ -1,0 +1,370 @@
+{
+  "_comment": "Featured and enterprise projects. All items support deep-dive modal view, tech filtering, role descriptions, and client notes. Do not generate fake repo or demo links.",
+  "projects": [
+    {
+      "id": "smart-agriculture-greenhouse",
+      "title": "AI-Powered Smart Agriculture & Greenhouse System",
+      "category": "IoT & Generative AI",
+      "projectType": "Enterprise Project",
+      "employer": "Coderay Technologies (Pvt) Ltd",
+      "client": null,
+      "website": null,
+      "githubUrl": null,
+      "liveDemoUrl": null,
+      "featured": true,
+      "image": "assets/images/projects/smart_agri.svg",
+      "description": "An IoT-enabled smart agriculture solution designed to monitor and manage greenhouse and farming operations. The system collects sensor data through ESP32-based devices, processes agricultural data, and provides analytics and AI-assisted insights to support farming decisions.",
+      "role": "Technical solution design, backend API development, sensor communication integration, and AI insight architecture.",
+      "keyCapabilities": [
+        "IoT sensor data collection across multi-node greenhouse environments.",
+        "Agricultural telemetry data monitoring and time-series analytics.",
+        "AI-assisted predictions and crop growth health analysis.",
+        "Computer vision crop image analysis for early anomaly detection.",
+        "Automated and manual farm device monitoring and control.",
+        "Temporary offline operation with automatic data synchronization upon reconnection."
+      ],
+      "technologies": [
+        ".NET Core",
+        "IoT",
+        "ESP32",
+        "MQTT",
+        "Generative AI",
+        "Computer Vision",
+        "Data Analytics",
+        "SQL Server"
+      ],
+      "filterTags": [
+        ".NET",
+        "IoT",
+        "Generative AI",
+        "SQL Server",
+        "Enterprise Applications"
+      ]
+    },
+    {
+      "id": "drone-building-cleaning",
+      "title": "IoT-Based Drone Building Cleaning Management",
+      "category": "IoT & Telemetry Systems",
+      "projectType": "Enterprise Project",
+      "employer": "Coderay Technologies (Pvt) Ltd",
+      "client": null,
+      "website": null,
+      "githubUrl": null,
+      "liveDemoUrl": null,
+      "featured": true,
+      "image": "assets/images/projects/drone_cleaning.svg",
+      "description": "An IoT-enabled platform supporting drone-based high-rise building cleaning operations. The platform provides building surface mapping and cleaning coverage visualization, allowing operators to monitor mission progress and understand exact facade areas covered during cleaning operations.",
+      "role": "Designed the IoT data ingestion pipeline, real-time telemetry processing backend, and visualization data contracts.",
+      "keyCapabilities": [
+        "Architectural building facade mapping and geometric layout rendering.",
+        "Real-time cleaning coverage visual mapping and completion metrics.",
+        "Mission-related telemetry and flight session information management.",
+        "Pilot action and operational telemetry data collection.",
+        "Comprehensive telemetry collection for future optimization and analytics."
+      ],
+      "operationalNote": "Important accuracy note: The current drone is pilot-controlled. The system provides mapping and cleaning coverage information; it does not currently autonomously fly the drone or control its cleaning pressure. Operational data is captured to support future automation and optimization.",
+      "technologies": [
+        ".NET Core",
+        "IoT",
+        "ESP32",
+        "MQTT",
+        "Telemetry Ingestion",
+        "Mapping Visualization",
+        "Azure"
+      ],
+      "filterTags": [
+        ".NET",
+        "IoT",
+        "Azure",
+        "Enterprise Applications"
+      ]
+    },
+    {
+      "id": "queue-management-system",
+      "title": "Enterprise Queue Management System",
+      "category": "Enterprise & Public Sector",
+      "projectType": "Enterprise Project",
+      "employer": "Sri Lanka Telecom PLC",
+      "client": "External Private-Sector Organizations & Government Institutions",
+      "website": null,
+      "githubUrl": null,
+      "liveDemoUrl": null,
+      "featured": true,
+      "image": "assets/images/projects/queue_management.svg",
+      "description": "A high-availability queue management platform developed for customer-facing service centers, including bank-style establishments, mobile customer arcades, and government healthcare clinics. Customers select required services via kiosks while staff manage active queues and supervisors monitor throughput dashboards in real time.",
+      "role": "Led the end-to-end project lifecycle: requirements gathering, solution design, development, UAT, deployment, and post-deployment support. Collaborated directly with organizational stakeholders to define service workflows and resolve post-deployment operational issues.",
+      "keyCapabilities": [
+        "Self-service customer ticket kiosk and service selection workflow.",
+        "Intelligent multi-counter queue distribution and token calling.",
+        "Service workflow management tailored to departmental needs.",
+        "Real-time administrative dashboards monitoring wait times and service rates.",
+        "Comprehensive operational reporting and SLA metrics export."
+      ],
+      "technologies": [
+        ".NET Core",
+        "SQL Server",
+        "JavaScript",
+        "jQuery",
+        "React",
+        "MQTT",
+        "REST APIs"
+      ],
+      "filterTags": [
+        ".NET",
+        "React",
+        "SQL Server",
+        "IoT",
+        "Enterprise Applications",
+        "Government Solutions"
+      ]
+    },
+    {
+      "id": "workflow-management-system",
+      "title": "Enterprise Workflow Management System",
+      "category": "Enterprise Business Process",
+      "projectType": "Enterprise Project",
+      "employer": "Sri Lanka Telecom PLC",
+      "client": "External Corporate Organizations",
+      "website": null,
+      "githubUrl": null,
+      "liveDemoUrl": null,
+      "featured": false,
+      "image": "assets/images/projects/workflow_management.svg",
+      "description": "An enterprise workflow management engine that enables organizations to coordinate intricate business processes across multiple departments and manage service requests involving internal business units and external clients.",
+      "role": "Led the project lifecycle from requirements gathering and system architecture to coding, user acceptance testing (UAT), deployment, and stakeholder training.",
+      "keyCapabilities": [
+        "Cross-departmental process orchestration and automated routing.",
+        "Unified internal and external ticket request handling.",
+        "Complaint lifecycle tracking with configurable SLA escalations.",
+        "Real-time workflow status monitoring and audit trails.",
+        "Department-wise performance metrics and bottleneck analysis."
+      ],
+      "technologies": [
+        ".NET Core",
+        "SQL Server",
+        "JavaScript",
+        "jQuery",
+        "React",
+        "RESTful APIs"
+      ],
+      "filterTags": [
+        ".NET",
+        "React",
+        "SQL Server",
+        "Enterprise Applications"
+      ]
+    },
+    {
+      "id": "custom-hr-management-system",
+      "title": "Custom HR Management System",
+      "category": "Human Capital Solutions",
+      "projectType": "Enterprise Project",
+      "employer": "Sri Lanka Telecom PLC",
+      "client": "External Private Enterprises",
+      "website": null,
+      "githubUrl": null,
+      "liveDemoUrl": null,
+      "featured": false,
+      "image": "assets/images/projects/custom_hr.svg",
+      "description": "A tailored HR management solution designed to support comprehensive employee administration, biometric attendance tracking, and human resource operations across distinct organizational establishments.",
+      "role": "Participated in requirements gathering, solution design, full-stack development, UAT, deployment, and ongoing post-launch maintenance. Focused on core HR business logic and data synchronization.",
+      "keyCapabilities": [
+        "Comprehensive employee profile and records administration.",
+        "Time and attendance tracking with automated policy calculations.",
+        "Automated salary slip generation and payroll calculation routines.",
+        "Configurable leave approval hierarchies and HR policy enforcement."
+      ],
+      "technologies": [
+        ".NET Core",
+        "SQL Server",
+        "JavaScript",
+        "jQuery",
+        "React",
+        "MQTT"
+      ],
+      "filterTags": [
+        ".NET",
+        "React",
+        "SQL Server",
+        "IoT",
+        "Enterprise Applications"
+      ]
+    },
+    {
+      "id": "peopleshr-platform",
+      "title": "PeoplesHR — Enterprise HCM Platform",
+      "category": "Enterprise SaaS Platform",
+      "projectType": "Enterprise Platform",
+      "employer": "hSenid Business Solutions (Pvt) Ltd",
+      "client": "Global Enterprise Customers (Multi-Tenant SaaS)",
+      "website": "https://peopleshr.com/",
+      "githubUrl": null,
+      "liveDemoUrl": null,
+      "featured": true,
+      "image": "assets/images/projects/peopleshr.svg",
+      "description": "An integrated, enterprise-scale Human Capital Management (HCM) platform designed to streamline workforce management processes across multinational organizations. It encompasses employee master data, global payroll, attendance, leave management, and complete employee lifecycle workflows.",
+      "role": "Contributed across multiple core modules: developed product enhancements, engineered client-specific change requests, resolved critical defects, and optimized query execution speeds. Collaborated with Product Owners, BAs, and QA teams across agile release cycles.",
+      "keyCapabilities": [
+        "Multi-country payroll processing with complex tax compliance.",
+        "Global employee self-service (ESS) and manager portals.",
+        "Leave and attendance tracking with shifts and overtime policies.",
+        "Performance appraisal workflows and talent development modules.",
+        "Enterprise multi-database support (SQL Server and Oracle)."
+      ],
+      "technologies": [
+        ".NET Core",
+        "VB.NET",
+        "SQL Server",
+        "Oracle Database",
+        "JavaScript",
+        "jQuery",
+        "Knockout.js",
+        "Vue.js"
+      ],
+      "filterTags": [
+        ".NET",
+        "Vue.js",
+        "SQL Server",
+        "Enterprise Applications"
+      ]
+    },
+    {
+      "id": "permassist",
+      "title": "PermAssist — Building Certification Platform",
+      "category": "Regulatory SaaS Platform",
+      "projectType": "Outsourced Client Project",
+      "employer": "Peercore Pvt Ltd",
+      "client": "e-VIS (Australia)",
+      "website": "https://e-vis.com.au/permassist/",
+      "githubUrl": null,
+      "liveDemoUrl": null,
+      "featured": false,
+      "image": "assets/images/projects/permassist.svg",
+      "description": "A cloud-hosted SaaS solution engineered specifically for building surveyors and certifiers in Australia to manage complex building compliance certification workflows, documentation, and regulatory submissions.",
+      "role": "Configured and tailored application modules to meet Australian building surveyor requirements, resolved workflow bottlenecks, and collaborated closely in Scrum sprints for ongoing product delivery.",
+      "keyCapabilities": [
+        "End-to-end building permit and certification application tracking.",
+        "Automated regulatory compliance checklists against Australian standards.",
+        "Secure document storage, versioning, and digital certificate issuing.",
+        "Integrated stakeholder communication portal between certifiers and builders."
+      ],
+      "technologies": [
+        "ASP.NET MVC 4.0",
+        ".NET Framework",
+        "SQL Server 2019",
+        "JavaScript",
+        "jQuery"
+      ],
+      "filterTags": [
+        ".NET",
+        "SQL Server",
+        "Enterprise Applications"
+      ]
+    },
+    {
+      "id": "greenlight",
+      "title": "Greenlight — Online Permit Management Platform",
+      "category": "GovTech & Municipal SaaS",
+      "projectType": "Outsourced Client Project",
+      "employer": "Peercore Pvt Ltd",
+      "client": "e-VIS (Australia) / Australian Local Councils",
+      "website": "https://e-vis.com.au/greenlight/",
+      "githubUrl": null,
+      "liveDemoUrl": null,
+      "featured": false,
+      "image": "assets/images/projects/greenlight.svg",
+      "description": "A cloud-based digital government service enabling state government agencies and Australian local municipal councils to issue, process, inspect, and manage diverse permits, planning consents, and community licenses.",
+      "role": "Tailored and configured the platform for municipal council specifications, fixed software and workflow issues, and contributed to Scrum delivery sprints.",
+      "keyCapabilities": [
+        "Public portal for online permit application submission and fee payment.",
+        "Council officer assessment workflows, referrals, and approval sign-offs.",
+        "Automated notice generation and statutory compliance monitoring.",
+        "Spatial and geographical reference integration for municipal zones."
+      ],
+      "technologies": [
+        "ASP.NET MVC 4.0",
+        ".NET Framework",
+        "SQL Server",
+        "JavaScript",
+        "jQuery"
+      ],
+      "filterTags": [
+        ".NET",
+        "SQL Server",
+        "Enterprise Applications",
+        "Government Solutions"
+      ]
+    },
+    {
+      "id": "inspectassist",
+      "title": "InspectAssist — Inspection Management Platform",
+      "category": "Inspection & Compliance SaaS",
+      "projectType": "Outsourced Client Project",
+      "employer": "Peercore Pvt Ltd",
+      "client": "e-VIS (Australia)",
+      "website": "https://e-vis.com.au/inspectassist/",
+      "githubUrl": null,
+      "liveDemoUrl": null,
+      "featured": false,
+      "image": "assets/images/projects/inspectassist.svg",
+      "description": "A cloud-based SaaS platform engineered to help Australian inspection firms schedule, execute, document, and report on structural, commercial, and residential building inspections.",
+      "role": "Configured inspection criteria templates, resolved field data sync issues, and actively participated in Agile sprint implementation.",
+      "keyCapabilities": [
+        "Inspection job dispatching, scheduling, and auditor assignment.",
+        "Standardized digital inspection checklists with photo evidence capture.",
+        "Instant PDF report compilation and client dispatch.",
+        "Historical inspection logs and defect tracking."
+      ],
+      "technologies": [
+        ".NET Core",
+        "SQL Server",
+        "JavaScript",
+        "jQuery"
+      ],
+      "filterTags": [
+        ".NET",
+        "SQL Server",
+        "Enterprise Applications"
+      ]
+    },
+    {
+      "id": "support-ticket-triage-agent",
+      "title": "AI-Powered Support Ticket Triage Agent",
+      "category": "Generative AI & Agentic Architecture",
+      "projectType": "Personal Technical Demonstration",
+      "employer": "Personal Technical Demonstration",
+      "client": null,
+      "website": null,
+      "githubUrl": null,
+      "liveDemoUrl": null,
+      "featured": true,
+      "image": "assets/images/projects/ai_triage.svg",
+      "description": "An autonomous AI engineering demonstration built with .NET 10 and Semantic Kernel that analyzes incoming customer support inquiries, classifies urgency, generates suggested responses, and prepares recommended resolution actions using LLMs.",
+      "role": "Designed and implemented the complete agentic pipeline as a technical demonstration of LLM orchestration, structured tool execution, and human-in-the-loop workflows in .NET.",
+      "keyCapabilities": [
+        "AI-driven multi-dimensional ticket classification and sentiment analysis.",
+        "Urgency and priority identification based on SLA impact.",
+        "Contextual suggested customer draft responses synthesized from knowledge base.",
+        "Autonomous tool execution to query ticket details and mock external APIs.",
+        "Human-in-the-loop approval mechanism before actions are committed."
+      ],
+      "operationalNote": "Presented strictly as a personal project and technical engineering demonstration exploring LLM agent patterns, not as commercial production experience.",
+      "technologies": [
+        ".NET 10",
+        "C#",
+        "Semantic Kernel",
+        "Google Gemini",
+        "Azure",
+        "SQLite",
+        "Entity Framework Core",
+        "REST API"
+      ],
+      "filterTags": [
+        ".NET",
+        "Generative AI",
+        "Agentic AI",
+        "Azure"
+      ]
+    }
+  ]
+}

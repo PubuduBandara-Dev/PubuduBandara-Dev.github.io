@@ -1,0 +1,198 @@
+{
+  "_comment": "Professional work history. Reorder, add, or edit entries directly here. Supports company-level promotions, employer vs client distinctions, and tech tags.",
+  "experiences": [
+    {
+      "id": "coderay-technologies",
+      "company": "Coderay Technologies (Pvt) Ltd",
+      "companyDescription": "Technology consulting and enterprise engineering firm specializing in cloud architectures, IoT telemetry, and AI systems.",
+      "period": "September 2025 – Present",
+      "isCurrent": true,
+      "location": "Colombo, Sri Lanka",
+      "employmentType": "Full-time",
+      "roles": [
+        {
+          "title": "Associate Technical Lead",
+          "period": "September 2026 – Present",
+          "isCurrent": true,
+          "summary": "Steering architectural decisions, leading technical evaluations, and guiding engineering sprints for cloud, IoT, and AI-driven platforms."
+        },
+        {
+          "title": "Senior Software Engineer",
+          "period": "September 2025 – August 2026",
+          "isCurrent": false,
+          "summary": "Led hands-on full-stack engineering across .NET backend micro-services, React frontend applications, and Azure serverless integrations."
+        }
+      ],
+      "responsibilities": [
+        "Architect and lead full-stack enterprise application development leveraging C#, .NET Core, and React.",
+        "Oversee backend REST API design, high-performance database schema integration, and technical solution evaluations.",
+        "Guide day-to-day engineering activities, code reviews, and architectural decision-making across development sprints.",
+        "Design and implement IoT-enabled platforms with hardware telemetry pipelines (ESP32, MQTT).",
+        "Explore, prototype, and operationalize Generative AI solutions integrating Azure OpenAI, RAG, and Azure Functions.",
+        "Facilitate technical collaboration and alignment across cross-functional engineering, product, and QA stakeholders."
+      ],
+      "technologies": [
+        ".NET Core",
+        "C#",
+        "React",
+        "Azure Functions",
+        "Azure OpenAI",
+        "RAG",
+        "IoT / MQTT",
+        "ESP32",
+        "SQL Server",
+        "REST APIs"
+      ],
+      "associatedProjects": [
+        "AI-Powered Smart Agriculture and Greenhouse Management System",
+        "IoT-Based Drone Building Cleaning Management System"
+      ]
+    },
+    {
+      "id": "hsenid-business-solutions",
+      "company": "hSenid Business Solutions (Pvt) Ltd",
+      "companyDescription": "Leading multinational enterprise HR software solutions provider powering global workforces.",
+      "period": "January 2023 – July 2025",
+      "isCurrent": false,
+      "location": "Colombo, Sri Lanka",
+      "employmentType": "Full-time",
+      "roles": [
+        {
+          "title": "Full Stack Software Engineer",
+          "period": "January 2023 – July 2025",
+          "isCurrent": false,
+          "summary": "Core engineer on PeoplesHR, contributing across multi-tenant enterprise modules, payroll engines, and core application performance."
+        }
+      ],
+      "responsibilities": [
+        "Engineered key modules and high-volume business logic for PeoplesHR, an enterprise Human Capital Management platform.",
+        "Designed and implemented complex customer change requests, feature enhancements, and compliance adjustments.",
+        "Diagnosed and resolved mission-critical software defects, optimizing database queries and backend execution speeds.",
+        "Developed full-stack features using .NET, VB.NET, SQL Server, Oracle Database, JavaScript, jQuery, Knockout.js, and Vue.js.",
+        "Collaborated closely with Product Owners, Business Analysts, QA engineers, and cross-functional teams across Scrum ceremonies.",
+        "Participated actively in technical architecture reviews, solution design, automated testing, and CI/CD production releases."
+      ],
+      "technologies": [
+        ".NET Core",
+        "VB.NET",
+        "SQL Server",
+        "Oracle Database",
+        "JavaScript",
+        "jQuery",
+        "Knockout.js",
+        "Vue.js",
+        "Enterprise HCM"
+      ],
+      "associatedProjects": [
+        "PeoplesHR — Enterprise Human Capital Management Platform"
+      ]
+    },
+    {
+      "id": "sri-lanka-telecom",
+      "company": "Sri Lanka Telecom PLC",
+      "companyDescription": "National telecommunications and enterprise ICT service provider in Sri Lanka.",
+      "period": "March 2021 – December 2022",
+      "isCurrent": false,
+      "location": "Colombo, Sri Lanka",
+      "employmentType": "Full-time",
+      "roles": [
+        {
+          "title": "Software Developer",
+          "period": "March 2021 – December 2022",
+          "isCurrent": false,
+          "summary": "Delivered bespoke enterprise software systems, customer workflow solutions, and high-volume queue platforms for government & corporate clients."
+        }
+      ],
+      "responsibilities": [
+        "Spearheaded technical development for mission-critical solutions delivered to government departments and enterprise private clients.",
+        "Executed end-to-end software delivery lifecycle: requirements elicitation, architectural design, coding, UAT, and deployment.",
+        "Engineered scalable web applications and integrated REST and SOAP API web services for multi-department workflows.",
+        "Built enterprise queue management systems, business process workflows, and customized human resources management platforms.",
+        "Collaborated with public-sector stakeholders, enterprise clients, and technical teams to ensure seamless operational rollout."
+      ],
+      "technologies": [
+        ".NET Core",
+        "SQL Server",
+        "JavaScript",
+        "jQuery",
+        "React",
+        "MQTT",
+        "RESTful APIs",
+        "Workflow Engines"
+      ],
+      "associatedProjects": [
+        "Queue Management System",
+        "Workflow Management System",
+        "Custom HR Management System"
+      ]
+    },
+    {
+      "id": "peercore",
+      "company": "Peercore Pvt Ltd",
+      "companyDescription": "Global enterprise software development and consulting company delivering cloud and CRM solutions.",
+      "period": "2019 – 2021",
+      "isCurrent": false,
+      "location": "Colombo, Sri Lanka",
+      "employmentType": "Full-time",
+      "clientNote": "Delivered solutions for external client e-VIS (Australia)",
+      "roles": [
+        {
+          "title": "Associate Application Engineer",
+          "period": "2019 – 2021",
+          "isCurrent": false,
+          "summary": "Delivered regulatory compliance, building surveyor certification, and municipal inspection platforms for e-VIS clients."
+        }
+      ],
+      "responsibilities": [
+        "Engineered and configured enterprise SaaS platforms for Australian local councils and building surveyor organizations.",
+        "Collaborated within Agile/Scrum sprints with international teams to deliver features for PermAssist, Greenlight, and InspectAssist.",
+        "Tailored application workflows, report generators, and inspection checklists to meet strict Australian regulatory standards.",
+        "Investigated and resolved production defects, customer workflow issues, and integration bugs."
+      ],
+      "technologies": [
+        "ASP.NET MVC 4.0",
+        ".NET Framework",
+        ".NET Core",
+        "SQL Server 2019",
+        "JavaScript",
+        "jQuery",
+        "Scrum"
+      ],
+      "associatedProjects": [
+        "PermAssist — Building Certification Management Platform",
+        "Greenlight — Online Permit Management Platform",
+        "InspectAssist — Inspection Management Platform"
+      ]
+    },
+    {
+      "id": "richard-pieris-software",
+      "company": "Richard Pieris Software",
+      "companyDescription": "Software innovation wing of Richard Pieris Group, delivering business automation systems.",
+      "period": "2018 – 2019",
+      "isCurrent": false,
+      "location": "Colombo, Sri Lanka",
+      "employmentType": "Internship (6 Months)",
+      "roles": [
+        {
+          "title": "Software Engineer Intern",
+          "period": "6-Month Internship",
+          "isCurrent": false,
+          "summary": "Completed intensive software engineering internship practicing enterprise web development and database fundamentals."
+        }
+      ],
+      "responsibilities": [
+        "Gained hands-on experience in enterprise application lifecycle processes, agile development workflows, and version control.",
+        "Assisted senior engineers in web application development, bug fixes, and unit test execution.",
+        "Participated in database query optimization, user interface enhancement, and software documentation tasks."
+      ],
+      "technologies": [
+        "C#",
+        ".NET",
+        "SQL Server",
+        "JavaScript",
+        "HTML/CSS"
+      ],
+      "associatedProjects": []
+    }
+  ]
+}

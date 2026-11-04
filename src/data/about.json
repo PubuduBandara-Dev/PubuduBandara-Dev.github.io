@@ -1,0 +1,42 @@
+{
+  "_comment": "About Me section configuration. Highlights core competencies, architectural pillars, and leadership philosophy.",
+  "title": "About Me",
+  "subtitle": "Engineering resilient enterprise platforms, leading cross-functional teams, and integrating cutting-edge AI and cloud technologies.",
+  "paragraphs": [
+    "I am an Associate Technical Lead and Senior Software Engineer with nearly seven years of professional experience engineering mission-critical enterprise applications, distributed systems, and modern cloud architectures. Currently leading technical initiatives at Coderay Technologies, I focus on end-to-end software development, architectural evaluation, and technical mentorship.",
+    "My engineering background spans full-stack development with a deep emphasis on C# / .NET backend architecture, scalable RESTful API design, and modern frontend development with React and modern web ecosystems. Having progressed from hands-on software development to technical leadership, I bridge the gap between high-level business requirements and robust, maintainable codebases.",
+    "Across my career at Coderay Technologies, hSenid Business Solutions, Sri Lanka Telecom, and Peercore, I have delivered multi-tenant enterprise HR platforms, workflow automation engines, public sector queue management systems, and IoT telematics solutions. Today, I actively design and integrate Generative AI, Retrieval-Augmented Generation (RAG), and Agentic AI workflows to unlock real-world automation and intelligence."
+  ],
+  "pillars": [
+    {
+      "icon": "Cpu",
+      "title": "Enterprise Architecture & .NET",
+      "description": "Designing high-throughput, modular, and resilient backend systems following SOLID principles, microservices concepts, and domain-driven design."
+    },
+    {
+      "icon": "Cloud",
+      "title": "Cloud & Azure Solutions",
+      "description": "Architecting cloud-native solutions with Microsoft Azure, Azure App Services, Azure Functions, Azure OpenAI, and automated CI/CD deployment pipelines."
+    },
+    {
+      "icon": "Radio",
+      "title": "IoT & System Integration",
+      "description": "Connecting hardware, sensors, and telemetry pipelines using MQTT, ESP32 microcontrollers, device mapping, and real-time event streaming."
+    },
+    {
+      "icon": "Sparkles",
+      "title": "Generative & Agentic AI",
+      "description": "Building next-generation intelligent applications utilizing Semantic Kernel, Azure OpenAI, LLM orchestration, and autonomous agent tool-calling."
+    },
+    {
+      "icon": "Database",
+      "title": "Data Engineering & Optimization",
+      "description": "Optimizing high-volume relational and document stores including SQL Server, Oracle, and MongoDB through indexing, query tuning, and schema design."
+    },
+    {
+      "icon": "Users",
+      "title": "Technical Leadership & Delivery",
+      "description": "Guiding sprint engineering, conducting architecture reviews, mentoring engineers, and steering cross-functional collaboration across Product, QA, and DevOps."
+    }
+  ]
+}

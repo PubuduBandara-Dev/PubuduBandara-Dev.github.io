@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" width="400" height="240">
+  <rect width="400" height="240" rx="16" fill="#0B132B"/>
+  <circle cx="200" cy="110" r="70" fill="#8B5CF6" fill-opacity="0.15"/>
+  <circle cx="200" cy="95" r="28" fill="#581C87" stroke="#A78BFA" stroke-width="2"/>
+  <path d="M190,95 L210,95" stroke="#C4B5FD" stroke-width="2"/>
+  <path d="M200,85 L200,105" stroke="#C4B5FD" stroke-width="2"/>
+  <rect x="150" y="135" width="100" height="18" rx="4" fill="#3B0764" stroke="#A78BFA" stroke-width="1"/>
+  <text x="200" y="147" fill="#E9D5FF" font-family="monospace" font-size="8" text-anchor="middle">SEMANTIC KERNEL</text>
+  <text x="200" y="195" fill="#E2E8F0" font-family="sans-serif" font-size="13" font-weight="bold" text-anchor="middle">AI Support Ticket Triage Agent</text>
+  <text x="200" y="215" fill="#C4B5FD" font-family="monospace" font-size="10" text-anchor="middle">.NET 10 • Agentic AI • LLM Tools</text>
+</svg>

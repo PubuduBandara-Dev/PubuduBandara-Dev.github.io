@@ -1,0 +1,40 @@
+{
+  "_comment": "Personal profile information for Pubudu Nuwan Bandara. Update fields as needed.",
+  "name": "Pubudu Nuwan Bandara",
+  "title": "Associate Technical Lead | Senior Software Engineer",
+  "headline": ".NET | React | Azure | Enterprise Applications | Generative AI",
+  "subtitle": "Full Stack Software Engineer specializing in enterprise application development, cloud solutions, system integration, and modern software architecture.",
+  "shortBio": "Software engineer with nearly 7 years of experience designing, developing, and delivering enterprise software solutions. Experienced in full-stack development, backend engineering, technical solution design, cloud technologies, and system integration. Passionate about building scalable applications, solving complex technical challenges, and exploring Generative AI and Agentic AI solutions.",
+  "yearsOfExperience": "Nearly 7 years",
+  "currentRole": "Associate Technical Lead",
+  "currentEmployer": "Coderay Technologies (Pvt) Ltd.",
+  "location": "Colombo, Sri Lanka",
+  "email": "contact@pubudubandara.dev",
+  "phone": "+94 70 000 0000",
+  "avatarUrl": "",
+  "avatarFallbackInitials": "PB",
+  "cvPath": "assets/documents/Pubudu_Nuwan_Bandara_CV.pdf",
+  "availability": "Open to enterprise opportunities & technical leadership",
+  "stats": [
+    {
+      "label": "Years of Experience",
+      "value": "7",
+      "suffix": "+"
+    },
+    {
+      "label": "Enterprise Projects",
+      "value": "10",
+      "suffix": "+"
+    },
+    {
+      "label": "Cloud & IoT Solutions",
+      "value": "5",
+      "suffix": "+"
+    },
+    {
+      "label": "Certifications",
+      "value": "1",
+      "suffix": ""
+    }
+  ]
+}

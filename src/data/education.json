@@ -1,0 +1,17 @@
+{
+  "_comment": "Academic qualifications and higher education degrees.",
+  "education": [
+    {
+      "id": "bsc-colombo",
+      "degree": "Bachelor of Science (Honours) in Information Technology and Management",
+      "institution": "University of Colombo",
+      "location": "Colombo, Sri Lanka",
+      "period": "Graduated with Honours",
+      "highlights": [
+        "Rigorous coursework in Enterprise Systems Architecture, Advanced Database Systems, and Distributed Computing.",
+        "Comprehensive foundations in Software Engineering Methodologies, Object-Oriented Analysis & Design, and Data Structures.",
+        "Capstone projects emphasizing enterprise automation and system interoperability."
+      ]
+    }
+  ]
+}

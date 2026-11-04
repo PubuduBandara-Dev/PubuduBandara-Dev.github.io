@@ -1,0 +1,36 @@
+{
+  "_comment": "Global site configuration, navigation, SEO metadata, and contact form settings.",
+  "siteTitle": "Pubudu Nuwan Bandara | Associate Technical Lead & Senior Software Engineer",
+  "siteDescription": "Portfolio of Pubudu Nuwan Bandara — Associate Technical Lead with nearly 7 years of enterprise software engineering experience across .NET, React, Azure, IoT, and Generative AI.",
+  "author": "Pubudu Nuwan Bandara",
+  "canonicalUrl": "https://pubudubandara-dev.github.io",
+  "navigation": [
+    { "label": "Home", "href": "#hero" },
+    { "label": "About", "href": "#about" },
+    { "label": "Skills", "href": "#skills" },
+    { "label": "Experience", "href": "#experience" },
+    { "label": "Projects", "href": "#projects" },
+    { "label": "Certifications", "href": "#certifications" },
+    { "label": "Education", "href": "#education" },
+    { "label": "Contact", "href": "#contact" }
+  ],
+  "contact": {
+    "heading": "Let's Connect",
+    "subheading": "Whether you are interested in exploring enterprise engineering opportunities, technical leadership, or system architecture collaboration, my inbox is open.",
+    "formspreeEndpoint": "",
+    "emailjs": {
+      "serviceId": "",
+      "templateId": "",
+      "publicKey": ""
+    },
+    "directEmail": "pubudu.bandara.dev@example.com",
+    "location": "Colombo, Sri Lanka",
+    "status": "Available for technical discussions"
+  },
+  "features": {
+    "enableThemeToggle": true,
+    "enableParticleBackground": true,
+    "enableFilterCount": true,
+    "enableScrollProgress": true
+  }
+}

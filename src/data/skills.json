@@ -1,0 +1,136 @@
+{
+  "_comment": "Technical skills configuration. Grouped into categories with configurable proficiency levels (e.g. Experienced, Working Knowledge, Familiarity) and icons.",
+  "categories": [
+    {
+      "id": "backend",
+      "name": "Backend Development",
+      "icon": "Server",
+      "description": "Enterprise-grade C#/.NET backend architecture, scalable APIs, and ORM integration.",
+      "skills": [
+        { "name": "C#", "level": "Experienced", "highlight": true },
+        { "name": ".NET Core / .NET 10", "level": "Experienced", "highlight": true },
+        { "name": "ASP.NET Core", "level": "Experienced", "highlight": true },
+        { "name": "REST API Development", "level": "Experienced", "highlight": true },
+        { "name": "Entity Framework Core", "level": "Experienced", "highlight": true },
+        { "name": ".NET Framework", "level": "Experienced" },
+        { "name": "ASP.NET MVC", "level": "Experienced" },
+        { "name": "Web API", "level": "Experienced" },
+        { "name": "Entity Framework", "level": "Experienced" },
+        { "name": "VB.NET", "level": "Working Knowledge" }
+      ]
+    },
+    {
+      "id": "frontend",
+      "name": "Frontend Development",
+      "icon": "Layout",
+      "description": "Modern responsive user interfaces, reactive state management, and enterprise component design.",
+      "skills": [
+        { "name": "React", "level": "Experienced", "highlight": true },
+        { "name": "TypeScript", "level": "Experienced", "highlight": true },
+        { "name": "JavaScript (ES6+)", "level": "Experienced", "highlight": true },
+        { "name": "HTML5 & CSS3", "level": "Experienced" },
+        { "name": "Vue.js", "level": "Working Knowledge" },
+        { "name": "jQuery", "level": "Experienced" },
+        { "name": "Knockout.js", "level": "Working Knowledge" }
+      ]
+    },
+    {
+      "id": "cloud",
+      "name": "Cloud & Microsoft Azure",
+      "icon": "Cloud",
+      "description": "Cloud-native services, serverless execution, AI services, and automated delivery pipelines.",
+      "skills": [
+        { "name": "Microsoft Azure", "level": "Experienced", "highlight": true },
+        { "name": "Azure App Services", "level": "Experienced" },
+        { "name": "Azure Functions", "level": "Experienced", "highlight": true },
+        { "name": "Azure OpenAI", "level": "Working Knowledge", "highlight": true },
+        { "name": "Azure DevOps", "level": "Experienced" },
+        { "name": "Cloud Application Development", "level": "Experienced" },
+        { "name": "Azure Application Integration", "level": "Experienced" },
+        { "name": "CI/CD Pipelines", "level": "Experienced" }
+      ]
+    },
+    {
+      "id": "genai",
+      "name": "Generative AI & Agentic AI",
+      "icon": "Sparkles",
+      "description": "Cutting-edge LLM orchestration, agentic tool invocation, RAG pipelines, and intelligent workflows.",
+      "skills": [
+        { "name": "Generative AI", "level": "Working Knowledge", "highlight": true },
+        { "name": "Azure OpenAI", "level": "Working Knowledge", "highlight": true },
+        { "name": "Large Language Models (LLMs)", "level": "Working Knowledge" },
+        { "name": "Retrieval-Augmented Generation (RAG)", "level": "Working Knowledge", "highlight": true },
+        { "name": "AI-Powered Application Development", "level": "Working Knowledge" },
+        { "name": "Agentic AI Concepts", "level": "Working Knowledge", "highlight": true },
+        { "name": "AI Agents & Tool Integration", "level": "Working Knowledge" },
+        { "name": "Semantic Kernel", "level": "Working Knowledge", "highlight": true },
+        { "name": "Prompt Engineering", "level": "Working Knowledge" },
+        { "name": "AI Workflow Automation", "level": "Working Knowledge" }
+      ]
+    },
+    {
+      "id": "iot",
+      "name": "IoT & System Integration",
+      "icon": "Radio",
+      "description": "Hardware-to-cloud messaging protocols, embedded device telemetry, and distributed messaging.",
+      "skills": [
+        { "name": "Internet of Things (IoT)", "level": "Working Knowledge", "highlight": true },
+        { "name": "MQTT", "level": "Working Knowledge", "highlight": true },
+        { "name": "ESP32", "level": "Working Knowledge" },
+        { "name": "Device Integration", "level": "Working Knowledge" },
+        { "name": "Telemetry Ingestion", "level": "Working Knowledge" },
+        { "name": "Data Processing", "level": "Working Knowledge" }
+      ]
+    },
+    {
+      "id": "databases",
+      "name": "Databases & Storage",
+      "icon": "Database",
+      "description": "Relational schema modeling, query optimization, high-availability data stores, and NoSQL structures.",
+      "skills": [
+        { "name": "Microsoft SQL Server", "level": "Experienced", "highlight": true },
+        { "name": "Oracle Database", "level": "Experienced" },
+        { "name": "SQLite", "level": "Experienced" },
+        { "name": "MongoDB", "level": "Working Knowledge" },
+        { "name": "Relational Database Design", "level": "Experienced" },
+        { "name": "Query Optimization", "level": "Experienced" },
+        { "name": "Stored Procedures", "level": "Experienced" },
+        { "name": "NoSQL Concepts", "level": "Working Knowledge" }
+      ]
+    },
+    {
+      "id": "architecture",
+      "name": "Software Architecture & Design",
+      "icon": "Layers",
+      "description": "Robust architecture patterns, object-oriented principles, and scalable system engineering.",
+      "skills": [
+        { "name": "RESTful API Architecture", "level": "Experienced", "highlight": true },
+        { "name": "SOLID Principles", "level": "Experienced", "highlight": true },
+        { "name": "Design Patterns", "level": "Experienced" },
+        { "name": "Modular Architecture", "level": "Experienced" },
+        { "name": "Technical Solution Design", "level": "Experienced", "highlight": true },
+        { "name": "Microservices Concepts", "level": "Working Knowledge" },
+        { "name": "System Integration", "level": "Experienced" },
+        { "name": "Performance Optimization", "level": "Experienced" },
+        { "name": "Object-Oriented Programming", "level": "Experienced" }
+      ]
+    },
+    {
+      "id": "devops",
+      "name": "DevOps & Engineering Tools",
+      "icon": "Wrench",
+      "description": "Source control, containerization, deployment automation, and modern developer tooling.",
+      "skills": [
+        { "name": "Git", "level": "Experienced", "highlight": true },
+        { "name": "Docker", "level": "Working Knowledge", "highlight": true },
+        { "name": "Azure DevOps", "level": "Experienced" },
+        { "name": "GitHub", "level": "Experienced" },
+        { "name": "Bitbucket", "level": "Experienced" },
+        { "name": "Postman", "level": "Experienced" },
+        { "name": "Visual Studio", "level": "Experienced" },
+        { "name": "Visual Studio Code", "level": "Experienced" },
+        { "name": "CI/CD & Workflows", "level": "Experienced" }
+      ]
+    }
+  ]
+}

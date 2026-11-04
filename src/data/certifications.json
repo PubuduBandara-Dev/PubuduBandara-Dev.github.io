@@ -1,0 +1,22 @@
+{
+  "_comment": "Professional industry certifications. Additional credentials can be added to this array.",
+  "certifications": [
+    {
+      "id": "az-900",
+      "name": "Microsoft Certified: Azure Fundamentals",
+      "code": "AZ-900",
+      "issuer": "Microsoft",
+      "issueDate": "May 2025",
+      "expiryDate": null,
+      "credentialUrl": "https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/",
+      "badgeImage": "assets/images/certifications/azure-fundamentals.svg",
+      "skillsValidated": [
+        "Cloud Concepts & Architecture",
+        "Azure Management & Governance",
+        "Azure Architecture & Core Services",
+        "Security, Privacy & Compliance"
+      ],
+      "isVerified": true
+    }
+  ]
+}
