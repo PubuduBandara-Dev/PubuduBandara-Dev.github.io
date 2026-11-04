@@ -19,6 +19,9 @@ interface HeroSectionProps {
 }
 
 export const HeroSection: React.FC<HeroSectionProps> = ({ profile, socialLinks }) => {
+  const [imageError, setImageError] = React.useState(false);
+  const showAvatar = Boolean(profile.avatarUrl && !imageError);
+
   const linkedinLink = socialLinks.find((l) => l.id === 'linkedin')?.url || '#';
   const githubLink = socialLinks.find((l) => l.id === 'github')?.url || '#';
   const emailLink = socialLinks.find((l) => l.id === 'email')?.url || `mailto:${profile.email}`;
@@ -54,20 +57,19 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ profile, socialLinks }
 
         {/* Profile Avatar / Monogram */}
         <div className="relative inline-block mb-6">
-          <div className="w-24 h-24 sm:w-28 sm:h-28 rounded-2xl bg-gradient-to-tr from-slate-900 to-slate-800 dark:from-slate-900 dark:to-slate-800 light:from-slate-100 light:to-slate-200 border-2 border-primary-500/40 p-1 shadow-xl shadow-primary-500/10 mx-auto flex items-center justify-center overflow-hidden">
-            {profile.avatarUrl ? (
+          <div className="w-28 h-28 sm:w-32 sm:h-32 rounded-2xl bg-gradient-to-tr from-slate-900 to-slate-800 dark:from-slate-900 dark:to-slate-800 light:from-slate-100 light:to-slate-200 border-2 border-primary-500/40 p-1 shadow-xl shadow-primary-500/10 mx-auto flex items-center justify-center overflow-hidden">
+            {showAvatar ? (
               <img
                 src={profile.avatarUrl}
                 alt={profile.name}
                 className="w-full h-full object-cover rounded-xl"
-                onError={(e) => {
-                  (e.target as HTMLElement).style.display = 'none';
-                }}
+                onError={() => setImageError(true)}
               />
-            ) : null}
-            <div className="w-full h-full bg-gradient-to-br from-primary-600 via-sky-600 to-slate-900 rounded-xl flex items-center justify-center text-white font-mono font-bold text-3xl">
-              {profile.avatarFallbackInitials || 'PB'}
-            </div>
+            ) : (
+              <div className="w-full h-full bg-gradient-to-br from-primary-600 via-sky-600 to-slate-900 rounded-xl flex items-center justify-center text-white font-mono font-bold text-3xl">
+                {profile.avatarFallbackInitials || 'PB'}
+              </div>
+            )}
           </div>
           <div className="absolute -bottom-2 -right-2 bg-[#0B0F19] dark:bg-[#0B0F19] light:bg-white p-1 rounded-lg border border-white/10 light:border-slate-300">
             <Sparkles className="w-4 h-4 text-primary-400" />
