@@ -329,44 +329,4 @@
     },
     
   ]
-  
-  "_comment": "{
-      "id": "support-ticket-triage-agent",
-      "title": "AI-Powered Support Ticket Triage Agent",
-      "category": "Generative AI & Agentic Architecture",
-      "projectType": "Personal Technical Demonstration",
-      "employer": "Personal Technical Demonstration",
-      "client": null,
-      "website": null,
-      "githubUrl": null,
-      "liveDemoUrl": null,
-      "featured": true,
-      "image": "assets/images/projects/ai_triage.svg",
-      "description": "An autonomous AI engineering demonstration built with .NET 10 and Semantic Kernel that analyzes incoming customer support inquiries, classifies urgency, generates suggested responses, and prepares recommended resolution actions using LLMs.",
-      "role": "Designed and implemented the complete agentic pipeline as a technical demonstration of LLM orchestration, structured tool execution, and human-in-the-loop workflows in .NET.",
-      "keyCapabilities": [
-        "AI-driven multi-dimensional ticket classification and sentiment analysis.",
-        "Urgency and priority identification based on SLA impact.",
-        "Contextual suggested customer draft responses synthesized from knowledge base.",
-        "Autonomous tool execution to query ticket details and mock external APIs.",
-        "Human-in-the-loop approval mechanism before actions are committed."
-      ],
-      "operationalNote": "Presented strictly as a personal project and technical engineering demonstration exploring LLM agent patterns, not as commercial production experience.",
-      "technologies": [
-        ".NET 10",
-        "C#",
-        "Semantic Kernel",
-        "Google Gemini",
-        "Azure",
-        "SQLite",
-        "Entity Framework Core",
-        "REST API"
-      ],
-      "filterTags": [
-        ".NET",
-        "Generative AI",
-        "Agentic AI",
-        "Azure"
-      ]
-    }"
 }
