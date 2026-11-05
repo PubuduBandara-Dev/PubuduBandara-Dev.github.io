@@ -327,7 +327,10 @@
         "Enterprise Applications"
       ]
     },
-    {
+    
+  ]
+  
+  "_comment": "{
       "id": "support-ticket-triage-agent",
       "title": "AI-Powered Support Ticket Triage Agent",
       "category": "Generative AI & Agentic Architecture",
@@ -365,6 +368,5 @@
         "Agentic AI",
         "Azure"
       ]
-    }
-  ]
+    }"
 }
